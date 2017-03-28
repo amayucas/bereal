@@ -1,15 +1,17 @@
 {
-  "name": "bereal",
-  "description": "",
+  "name": "berealtalent_bot",
+  "version": "1.0.0",
+  "description": "Bot para hacer preguntas (Version preliminar)",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "env": {
-  },
-  "formation": {
-  },
-  "addons": [
-
-  ],
+  "author": "Amayu",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.7.0",
+    "restify": "^4.3.0"
+  }
   "buildpacks": [
     {
       "url": "heroku/nodejs"
